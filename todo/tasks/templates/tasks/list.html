@@ -1,0 +1,16 @@
+<h1>Hakim todo</h1>
+
+
+   <form >
+       {{form.title}}
+       <input type="submit" name="create task">
+   </form>
+
+   {% for task in tasks %}
+     <div class="">
+         <p>
+             {{task}}
+         </p>
+     </div>   
+   
+   {% endfor %}
